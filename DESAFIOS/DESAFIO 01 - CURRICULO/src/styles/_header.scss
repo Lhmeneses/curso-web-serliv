@@ -1,0 +1,15 @@
+@import "variables";
+
+.header {
+  text-align: center;
+
+  &__title {
+    margin: 0;
+    background-color: $background-color;
+    color: $primary-color;
+  }
+
+  &__sub-title {
+    margin: 0;
+  }
+}

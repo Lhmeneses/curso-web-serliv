@@ -1,0 +1,14 @@
+@import "variables";
+
+.footer__background {
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $background-color;
+  margin-top: 1rem;
+
+  p {
+    margin: 0;
+  }
+}
