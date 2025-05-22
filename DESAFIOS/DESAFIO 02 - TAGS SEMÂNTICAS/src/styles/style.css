@@ -1,0 +1,109 @@
+.hero {
+  background-image: url(../assets/bg-2.jpg);
+  height: 31.25rem;
+  background-size: cover;
+  background-position: center bottom;
+  padding-top: 0.0625rem;
+}
+.hero__menu-list {
+  margin: 1.25rem 3.125rem 0 0;
+  display: flex;
+  justify-content: right;
+  gap: 8px;
+}
+.hero__menu-item {
+  list-style-type: none;
+  border: 0.125rem solid white;
+  border-radius: 0.25rem;
+}
+.hero__menu-item a {
+  color: white;
+  padding: 0.625rem 1.25rem;
+  display: inline-block;
+  transition: 0.4s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.hero__menu-item a:hover {
+  background-color: white;
+  color: black;
+  transition: 0.4s;
+}
+.hero__content {
+  margin: 5rem auto 0;
+  width: 60%;
+  text-align: center;
+  color: white;
+}
+.hero__content-title {
+  font-size: 56px;
+  text-shadow: 0.125rem 0.125rem 0.25rem black;
+  margin: 0 0 0.9375rem;
+  text-transform: uppercase;
+}
+.hero__content-subtitle {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-bottom: 0.125rem solid white;
+  margin: 0;
+  font-size: 1.125rem;
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+}
+
+footer {
+  background-color: #444;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__text {
+  color: white;
+}
+
+* a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ccc;
+}
+
+.list-courses {
+  width: 90%;
+  max-width: 860px;
+  margin: 3.125rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.list-courses__item {
+  padding: 0.625rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+.list-courses__header {
+  padding: 0.5rem 0;
+  text-indent: 0.5rem;
+  background-color: #ccc;
+  border-radius: 0.5rem;
+  border-bottom: 0.125rem solid #aaa;
+}
+.list-courses__title {
+  margin: 0;
+}
+.list-courses__text {
+  text-indent: 0.5rem;
+  color: #333;
+}
+.list-courses__btn {
+  padding: 0.5rem 0.75rem;
+  display: inline-block;
+  background-color: #ccc;
+  border-radius: 0.5rem;
+  color: black;
+  border-bottom: 0.125rem solid #aaa;
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
