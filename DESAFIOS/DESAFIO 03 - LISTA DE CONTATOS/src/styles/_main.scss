@@ -1,0 +1,63 @@
+@import "variables";
+
+.wrapper-list {
+  background-color: $primary-color;
+  width: 90%;
+  max-width: 500px;
+  max-height: 400px;
+  overflow: auto;
+  border-radius: 4px;
+  box-shadow: 0 0 10px $text-color;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+
+  &-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-bottom: 1px solid #60463b1a;
+
+    &:hover {
+      background-color: #d8d8d8;
+
+      & .list-item__icons {
+        opacity: 0.3;
+      }
+    }
+
+    &__photo img {
+      box-shadow: 0px 0px 4px $text-color;
+      width: 80px;
+      border-radius: 50%;
+    }
+
+    &__infos {
+      flex-grow: 1;
+      padding-left: 16px;
+
+      &__name {
+        font-weight: bold;
+        font-size: 24px;
+        color: $text-color;
+        margin: 0;
+      }
+
+      &__email {
+        color: $second-color;
+        margin: 5px 0 0;
+      }
+    }
+
+    &__icons {
+      display: flex;
+      gap: 12px;
+      opacity: 0;
+    }
+  }
+}
